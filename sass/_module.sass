@@ -30,18 +30,13 @@
 /*BUTTON STYLE*/
 
 .btn
-  background-color: $red-orange
-  color: white
-  padding: .625em
-  font-size: 1em
-  border-radius: .75em
-  border: .0625em solid $light-gray
-  text-decoration: none
-  letter-spacing: .05em
-  font-weight: 700
-  &:hover
-    background-color: $light-green
-    color: white
+  +button(special)
+
+.btn
+  +button(standard)
+
+.btn
+  +button(share)
 
 /*POINTER TEXTURE*/
 
